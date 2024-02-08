@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Music Quiz</title>
+       <link rel="stylesheet" href="style1.css">
+       
+    </head>
+    
+    <body>
+        <div class="app">
+            <h1>Taylor Swift</h1>
+            <div class="quiz">
+                <h2 id ="question">What song is this?</h2>
+                <div>
+                    <audio controls autoplay muted loop>
+                        <source src = "mine.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div>
+                    <a href="backtodec.html"><button class="btn" onclick="wronganswer()">Enchanted</button></a>
+                    <a href="backtodec.html"><button class="btn" onclick="wronganswer()">Yellow</button></a>
+                    <a href="backtodec.html"><button class="btn" onclick="wronganswer()">Missing You</button></a>
+                    <a href="backtodec.html"><button class="btn" onclick="buttonredirect()">Mine</button></a>
+                    
+                </div>
+            </div>
+        </div>
+        <script src ="script.js"></script>
+    </body>
+</html>

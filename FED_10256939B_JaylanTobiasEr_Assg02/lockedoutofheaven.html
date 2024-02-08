@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Music Quiz</title>
+       <link rel="stylesheet" href="style1.css">
+       
+    </head>
+    
+    <body>
+        <div class="app">
+            <h1>Bruno Mars</h1>
+            <div class="quiz">
+                <h2 id ="question">What song is this?</h2>
+                <div>
+                    <audio controls autoplay muted loop>
+                        <source src = "lockedoutofheaven.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div>
+                    <a href="versaceonthefloor.html"><button class="btn" onclick="wronganswer()">24K Magic</button></a>
+                    <a href="versaceonthefloor.html"><button class="btn" onclick="wronganswer()">Versace on the Floor</button></a>
+                    <a href="versaceonthefloor.html"><button class="btn" onclick="wronganswer()">When I Was Your Man</button></a>
+                    <a href="versaceonthefloor.html"><button class="btn" onclick="buttonredirect()">Locked Out of Heaven</button></a>
+                    
+                </div>
+            </div>
+        </div>
+        <script src ="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Music Quiz</title>
+       <link rel="stylesheet" href="style1.css">
+       
+    </head>
+    
+    <body>
+        <div class="app">
+            <h1>Coldplay</h1>
+            <div class="quiz">
+                <h2 id ="question">What song is this?</h2>
+                <div>
+                    <audio controls autoplay muted loop>
+                        <source src = "skyfullofstars.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div>
+                    <a href="clocks.html"><button class="btn" onclick="buttonredirect()">Sky Full of Stars</button></a>
+                    <a href="clocks.html"><button class="btn" onclick="wronganswer()">In My Place</button></a>
+                    <a href="clocks.html"><button class="btn" onclick="wronganswer()">Yellow</button></a>
+                    <a href="clocks.html"><button class="btn" onclick="buttonredirect()">Fix You</button></a>
+ 
+                </div>
+            </div>
+        </div>
+        <script src ="script.js"></script>
+    </body>
+</html>
